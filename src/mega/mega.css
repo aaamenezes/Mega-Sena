@@ -1,0 +1,65 @@
+.mega {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mega .numbers {
+  font-family: monospace;
+  text-align: center;
+}
+
+.mega button {
+  background-color: #09F;
+  color: #FFF;
+  font-size: 1.1rem;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.mega button:hover, 
+.mega button:focus {
+  outline: none;
+  box-shadow: 1px 1px 5px -2px #000;
+}
+
+.mega input {
+  font-size: 1.1rem;
+  padding: 5px;
+  margin: 20px 0;
+  border-radius: 5px;
+}
+
+.mega .numbers {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 5%;
+}
+
+.mega .numbers .number,
+.mega .numbers .home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  margin: 0 5px;
+  color: #FFF;
+  background-color: #D70;
+  border-radius: 50%;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.mega .numbers .number:hover,
+.mega .numbers .home:hover {
+  box-shadow: 1px 1px 5px -2px #000;
+}
+
+.mega .numbers .home {
+  width: auto;
+  border-radius: 5px;
+  padding: 10px;
+}
